@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(#000000, #999999);
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    color: beige;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+nav a{
+    color: beige;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+.intro {
+    font-family: 'Open Sans';
+    color: beige;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
